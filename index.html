@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Map By JS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="searchform">
+    <input id="position" name="position">
+    <button>Search</button>
+</form>
+<div id="map-container">
+    <div id="map"></div>
+    <img src="https://www.smithandsmith.co.nz/typo3conf/ext/branchlocator/Resources/Public/img/green-map-marker.png" class="marker" alt="">
+</div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4XcAQ0lfyPPnF4W1xAZ3zDLJU9uiIo1k&libraries=places&callback=initMap" async defer></script>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+<script src="index.js"></script>
+</body>
+</html>
